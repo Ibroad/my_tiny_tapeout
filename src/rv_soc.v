@@ -1,6 +1,6 @@
 `include "defines.v"
 
-module rv_soc (
+module tt_um_Ibroad_rv_soc (
 	input clk,
 	input rstn
 );
