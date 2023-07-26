@@ -5,7 +5,7 @@
 module tt_um_Ibroad_rv_soc (
 	input clk,
 	input ena,
-	input rstn
+	input rst_n
 
 );
 
@@ -16,7 +16,7 @@ module tt_um_Ibroad_rv_soc (
 	rv_core u_rv_core 
 	(
 		.clk			(clk),
-		.rstn			(rstn),
+		.rstn			(rst_n),
 		.instr_i		(instr_rom_core),
 		.instr_addr_o	(instr_addr_core_rom)
 	);
