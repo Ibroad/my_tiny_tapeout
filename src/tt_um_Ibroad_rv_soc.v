@@ -33,6 +33,9 @@ module tt_um_Ibroad_rv_soc (
 		.instr_o		(instr_rom_core)
 	);
 	
+	assign uo_out = 8'b00000000;
+	assign uio_out = 8'b00000000;
+	assign uio_oe = 8'b00000000;
 	
 
 endmodule
