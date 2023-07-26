@@ -1,3 +1,5 @@
+`default_nettype none
+
 `include "defines.v"
 
 module tt_um_Ibroad_rv_soc (
