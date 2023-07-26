@@ -27,6 +27,7 @@ module idu2exu
 
 
 );
+	wire rst_n;
 
 	assign rst_n = (rstn == 1'b0 || hold_flag_i_ctrl_idu2exu == 1'b1) ? 1'b0 : 1'b1;
 

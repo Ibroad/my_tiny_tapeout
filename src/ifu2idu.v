@@ -18,6 +18,7 @@ module ifu2idu
 	output [($clog2(`ROM_DEPTH)-1):0] instr_addr_o_ifu2idu_idu
 
 );
+	wire rst_n;
 	assign rst_n = (rstn == 1'b0 || hold_flag_i_ctrl_ifu2idu == 1'b1) ? 1'b0 : 1'b1;
 
 	dff_set dff_set_instr

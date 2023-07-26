@@ -4,7 +4,9 @@
 
 module tt_um_Ibroad_rv_soc (
 	input clk,
+	input ena,
 	input rstn
+
 );
 
 	wire [(`DATA_WIDTH-1):0]	instr_rom_core;
